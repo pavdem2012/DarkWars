@@ -5,9 +5,11 @@ public class WaterMage extends Wizard {
     String name  = "Маг ";
     String act  = "швырнул";
     String than  = " водяной шар";
+
     public void Attack() {
-        System.out.println(name + property + act + than);}
-    public WaterMage() {
+        System.out.println(name + property + act + than);
     }
 
+    public WaterMage() {
+    }
 }

@@ -55,7 +55,7 @@ public class War {
          */
         WaterMage waterMage = new WaterMage();
         waterMage.Attack();
-    
+
         /**
          * вызов атаки Маг земли
          */
@@ -63,5 +63,4 @@ public class War {
         landMage .Attack();
         
     }
-
 }

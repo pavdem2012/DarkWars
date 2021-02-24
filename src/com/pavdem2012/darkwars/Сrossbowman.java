@@ -5,9 +5,11 @@ public class Сrossbowman extends Archer {
     String name  = "арбалетчик";
     String act  = " пустил";
     String than  = " стрелу";
+
     public void Attack() {
-        System.out.println( property+ name + act + than);}
-    public Сrossbowman() {
+        System.out.println( property+ name + act + than);
     }
 
+    public Сrossbowman() {
+    }
 }

@@ -5,11 +5,11 @@ public class Berserk extends Warrior {
     String name  = "берсерк";
     String act  = " ударил";
     String than  = " топором";
+
     public void Attack() {
         System.out.println(property + name + act + than);
     }
+
     public Berserk() {
-
     }
-
 }
