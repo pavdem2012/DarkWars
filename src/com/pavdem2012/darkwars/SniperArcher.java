@@ -6,10 +6,8 @@ public class SniperArcher extends Archer {
     String act  = " пустил";
     String than  = " стрелу";
 
-    public void Attack() {
+    @Override
+    public void attack() {
         System.out.println( property+ name + act + than);
-    }
-
-    public SniperArcher() {
     }
 }

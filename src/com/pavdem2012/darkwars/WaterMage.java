@@ -6,10 +6,8 @@ public class WaterMage extends Wizard {
     String act  = "швырнул";
     String than  = " водяной шар";
 
-    public void Attack() {
+    @Override
+    public void attack() {
         System.out.println(name + property + act + than);
-    }
-
-    public WaterMage() {
     }
 }

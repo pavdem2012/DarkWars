@@ -7,60 +7,60 @@ package com.pavdem2012.darkwars;
 public class War {
 
     public static void main(String[] args) {
-        /**
+        /*
          * вызов атаки Воин
          */        
         Warrior warrior = new Warrior();
-        warrior.Attack();
+        warrior.attack();
 
-        /**
+        /*
          * вызов атаки Рыцарь 
          */
         
         Knight knight = new Knight();
-        knight.Attack();
+        knight.attack();
 
-        /**
+        /*
          * вызов атаки Берсерк 
          */        
         Berserk berserk  = new Berserk();
-        berserk.Attack();
+        berserk.attack();
 
-        /**
+        /*
          * вызов атаки Лучник 
          */
         Archer archer  = new Archer();
-        archer.Attack();
+        archer.attack();
 
-        /**
+        /*
          * вызов атаки Арбалетчик 
          */
         Сrossbowman crossbowman  = new Сrossbowman();
-        crossbowman.Attack();
+        crossbowman.attack();
 
-        /**
+        /*
          * вызов атаки Снайпер лучник 
          */
         SniperArcher sniperArcher  = new SniperArcher();
-        sniperArcher.Attack();
+        sniperArcher.attack();
 
-        /**
+        /*
          * вызов атаки Маг
          */
         Wizard wizard = new Wizard();
-        wizard.Attack();
+        wizard.attack();
 
-        /**
+        /*
          * вызов атаки Маг воды
          */
         WaterMage waterMage = new WaterMage();
-        waterMage.Attack();
+        waterMage.attack();
 
-        /**
+        /*
          * вызов атаки Маг земли
          */
         LandMage landMage = new LandMage();
-        landMage .Attack();
+        landMage .attack();
         
     }
 }

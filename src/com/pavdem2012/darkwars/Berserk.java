@@ -6,10 +6,8 @@ public class Berserk extends Warrior {
     String act  = " ударил";
     String than  = " топором";
 
-    public void Attack() {
+    @Override
+    public void attack() {
         System.out.println(property + name + act + than);
-    }
-
-    public Berserk() {
     }
 }

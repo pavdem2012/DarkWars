@@ -6,7 +6,7 @@ public class Wizard {
     String act  = " швырнул";
     String than  = " огненный шар";
 
-    public void Attack() {
+    public void attack() {
         System.out.println(property + name + act + than);
     }
 }

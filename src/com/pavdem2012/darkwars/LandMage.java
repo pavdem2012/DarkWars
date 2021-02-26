@@ -6,10 +6,8 @@ public class LandMage extends Wizard {
     String act  = "швырнул";
     String than  = " земляной шар";
 
-    public void Attack() {
+    @Override
+    public void attack() {
         System.out.println(name + property + act + than);
-    }
-
-    public LandMage() {
     }
 }

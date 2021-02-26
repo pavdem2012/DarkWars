@@ -6,10 +6,8 @@ public class Knight extends Warrior {
     String act  = " ударил";
     String than  = " копьем";
 
-    public void Attack() {
+    @Override
+    public void attack() {
         System.out.println(property + name + act + than);
-    }
-
-    public Knight() {
     }
 }

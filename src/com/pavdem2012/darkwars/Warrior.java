@@ -6,7 +6,7 @@ public class Warrior {
     String act  = " ударил";
     String than  = " мечом";
 
-    public void Attack() {
+    public void attack() {
         System.out.println(property + name + act + than);
     }
 }
